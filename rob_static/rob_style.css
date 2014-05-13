@@ -1,0 +1,61 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h2 {
+	margin-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+#header {
+	position: relative;
+	width: 900px;
+	margin: auto;
+}
+
+#header h2 {
+	margin-left: 10px;
+	vertical-align: middle;
+	font-size: 42px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+
+
+.demo-container {
+	box-sizing: border-box;
+	width: 50%;
+	height: 50%;
+	padding: 20px 15px 15px 15px;
+	margin: 15px auto 30px auto;
+	border: 1px solid #ddd;
+	background: #fff;
+
+}
+
+.demo-placeholder {
+
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	line-height: 1.2em;
+	
+}
+

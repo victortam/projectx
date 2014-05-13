@@ -1,0 +1,29 @@
+class Bids():
+    
+    def __init__(self):
+        self.d = {"js":0, "ew":0, "aj":0, "im":0, "jw":0}
+    
+    def add_bid(self,name):
+        self.d[name] += 1
+    
+
+b = Bids()
+
+print(b.d)
+
+b.add_bid("js")
+
+print(b.d)
+
+
+b.add_bid("js")
+b.add_bid("js")
+
+#
+#
+#bid = 'js'
+#
+#if bid == "js":
+#    d['js'] += 1
+#    
+#print(d)
